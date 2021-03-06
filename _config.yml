@@ -22,7 +22,7 @@ title_separator          : "&#124;" #타이틀 사이의 구분자 <title>Welcom
 subtitle                 : "Version 1.0" # 타이틀 아래에 나올 작은 글씨
 name                     : "ellen" #맨 하단 이름영역
 description              : "Android developer" # Meta 태그에 들어가는 영역
-url                      : "https://dohyunyoun.github.io" # 호스트주소, the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ditt.space" # 호스트주소, the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DohyunYoun/DohyunYoun.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
