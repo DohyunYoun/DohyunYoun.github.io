@@ -9,7 +9,7 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-# 참고 : https://honbabzone.com/jekyll/start-gitHubBlog/#step-1--%EA%B9%83-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%9E%80
+# 참고 : https://github.com/7271kim/7271kim.github.com/blob/master/_config.yml
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -28,7 +28,7 @@ repository               : "DohyunYoun/DohyunYoun.github.io" # GitHub username/r
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # 타이틀 옆에 표시됨, path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Dittlog" # 최상단에 들어가는 타이틀, overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default) # 브래드크럼 사용 여부 true, false (default) , _data/ui-text.yml에 다국어 지원 가능합니다.
+breadcrumbs              : true # true, false (default) # 브래드크럼 사용 여부 true, false (default) , _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute         : 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
 
 
@@ -92,9 +92,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-0ZVNFPSZV3"
     anonymize_ip         : # true, false (default)
 
 
@@ -274,9 +274,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
+      comments: true
+      share: false
       related: true
+      sidebar_main: true
+      toc: true
+      tpc_sticky: true
+
   # _pages
   - scope:
       path: "_pages"
